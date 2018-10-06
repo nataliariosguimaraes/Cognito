@@ -3,6 +3,12 @@
   "Transform" : "AWS::Serverless-2016-10-31",
   "Description" : "An AWS Serverless Application that uses the ASP.NET Core framework running in Amazon Lambda.",
 
+  "Globals" : {
+	"Api" : {
+		"BinaryMediaTypes" : ["*~1*"] 
+	}
+  },
+
   "Parameters" : {
   },
 
