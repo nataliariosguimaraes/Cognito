@@ -26,7 +26,7 @@
         "MemorySize": 512,
         "Timeout": 30,
         "Role": null,
-        "Policies": [ "AWSLambdaFullAccess" ],
+        "Policies": [ "AWSLambda_FullAccess" ],
         "Environment" : {
           "Variables" : {
           }

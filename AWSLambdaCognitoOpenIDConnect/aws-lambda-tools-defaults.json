@@ -6,13 +6,13 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "idea11lab",
-    "region"      : "ap-southeast-2",
+    "profile"     : "default",
+    "region"      : "us-east-1",
     "configuration" : "Release",
     "framework"     : "netcoreapp2.1",
     "s3-prefix"     : "AWSLambdaCognitoOpenIDConnect/",
     "template"      : "serverless.template",
     "template-parameters" : "",
-    "s3-bucket"           : "cf-templates-1ir4y8phkdbug-ap-southeast-2",
+    "s3-bucket"           : "cadastro-pacientes-dev-serverlessdeploymentbucket-15aexfrdquk1x",
     "stack-name"          : "oidc-cognito-lambda-demo"
 }
